@@ -1,0 +1,21 @@
+.testnav {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 30px !important;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.nav-links li a:hover {
+  color: gold;
+}

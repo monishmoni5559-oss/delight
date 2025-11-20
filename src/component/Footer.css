@@ -1,0 +1,13 @@
+.row-1 {
+    width: 98%;
+    height: 60vh;
+    display: flex;
+}
+
+.col1 {
+    width: 40%;
+}
+
+.col1 h2 {
+    color: rgba(221, 183, 14, 0.863);
+}
