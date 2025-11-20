@@ -15,7 +15,8 @@ export const Rings = [
         id: 13,
         img: img1,
         num: "₹54532",
-        para: "Dewlight Floral Diamond Drop Earrings"
+        para: "Dewlight Floral Diamond Drop Earrings",
+        quantity:1,
 
 
 
@@ -27,8 +28,8 @@ export const Rings = [
         id: 14,
         img: img2,
         num: "₹5515",
-        para: "Enchanted Whirl Diamond Drop Earrings"
-
+        para: "Enchanted Whirl Diamond Drop Earrings",
+        quantity:1,
 
 
 
@@ -37,7 +38,9 @@ export const Rings = [
         id: 15,
         img: img3,
         num: "₹45245",
-        para: "Eternal Glow Solitaire Stud Earrings"
+        para: "Eternal Glow Solitaire Stud Earrings",
+                quantity:1,
+
 
 
 
@@ -47,8 +50,9 @@ export const Rings = [
         id: 16,
         img: img4,
         num: "₹4725",
-        para: "Flawless Floral Diamond Stud Earrings"
+        para: "Flawless Floral Diamond Stud Earrings",
 
+        quantity:1,
 
 
 
@@ -57,7 +61,9 @@ export const Rings = [
         id: 17,
         img: img5,
         num: "₹45272",
-        para: "Glorious Flower Diamond Stud Earrings for Kids"
+        para: "Glorious Flower Diamond Stud Earrings for Kids",
+                quantity:1,
+
 
 
 
@@ -67,7 +73,9 @@ export const Rings = [
         id: 18,
         img: img6,
         num: "₹22724",
-        para: "Love Spark Diamond Earrings Diamond Drop Earrings"
+        para: "Love Spark Diamond Earrings Diamond Drop Earrings",
+                quantity:1,
+
 
 
 

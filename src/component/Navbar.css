@@ -19,20 +19,23 @@
 .nav-links li a:hover {
   color: gold;
 }
-.navigation-terms{
+
+.navigation-terms {
   display: flex;
-  justify-content: space-around;}
-  
-.navigation-terms li a{
-   color: black !important;
-   font-weight: bolder;
-   font-size: larger;
+  justify-content: space-around;
+}
+
+.navigation-terms li a {
+  color: black !important;
+  font-weight: bolder;
+  font-size: larger;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.navigation_icons{
+
+.navigation_icons {
   padding-top: 50px;
   padding-bottom: 20px;
-    display: flex;
+  display: flex;
   gap: 30px;
-    justify-content: center;
+  justify-content: center;
 }

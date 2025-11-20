@@ -12,7 +12,9 @@ export const Bangels = [
     id: 7,
     img: img1,
     num: "₹24247",
-    para: "Whimsical Cluster Diamond Stud Earrings"
+    para: "Whimsical Cluster Diamond Stud Earrings",
+            quantity:1,
+
 
 
   },
@@ -29,7 +31,9 @@ export const Bangels = [
     id: 9,
     img: img3,
     num: "₹9989",
-    para: "Radiant Rhombus Gold Stud Earrings"
+    para: "Radiant Rhombus Gold Stud Earrings",
+            quantity:1,
+
 
 
   },
@@ -37,7 +41,9 @@ export const Bangels = [
     id: 10,
     img: img4,
     num: "₹65757",
-    para: "Enchanting 18 Karat Yellow Gold And Pearl Geometric Drop Earrings"
+    para: "Enchanting 18 Karat Yellow Gold And Pearl Geometric Drop Earrings",
+            quantity:1,
+
 
 
   },
@@ -45,7 +51,9 @@ export const Bangels = [
     id: 11,
     img: img5,
     num: "₹25767",
-    para: "sConcentric Beads Drop Earrings"
+    para: "sConcentric Beads Drop Earrings",
+            quantity:1,
+
 
 
   },
@@ -53,7 +61,9 @@ export const Bangels = [
     id: 12,
     img: img6,
     num: "₹55655",
-    para: "Pink Paradise Diamond Drop Earrings"
+    para: "Pink Paradise Diamond Drop Earrings",
+            quantity:1,
+
 
 
   },

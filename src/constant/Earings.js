@@ -11,7 +11,9 @@ export const Earings = [
         id: 1,
         img: img1,
         num: "₹3,995",
-        para: "Girlish Star Shaped Gold Stud Earrings"
+        para: "Girlish Star Shaped Gold Stud Earrings",
+        quantity:1,
+
 
 
 
@@ -23,7 +25,9 @@ export const Earings = [
         id: 2,
         img: img2,
         num: "₹4666",
-        para: "Breathtaking Onyx Stone Diamond Stud Earrings for Kids"
+        para: "Breathtaking Onyx Stone Diamond Stud Earrings for Kids",
+         quantity:1,
+
 
 
 
@@ -33,7 +37,9 @@ export const Earings = [
         id: 3,
         img: img3,
         num: "₹54666",
-        para: "Swirl Pattern Diamond Stud Earrings for Kids"
+        para: "Swirl Pattern Diamond Stud Earrings for Kids",
+                quantity:1,
+
 
 
 
@@ -43,7 +49,9 @@ export const Earings = [
         id: 4,
         img: img4,
         num: "₹5788",
-        para: "Golden Petal Gold Drop Earrings"
+        para: "Golden Petal Gold Drop Earrings",
+                quantity:1,
+
 
 
 
@@ -53,7 +61,9 @@ export const Earings = [
         id: 5,
         img: img5,
         num: "₹9799",
-        para: "Twinkle Dome Diamond Jhumka Earrings for Kids"
+        para: "Twinkle Dome Diamond Jhumka Earrings for Kids",
+                quantity:1,
+
 
 
 
@@ -63,7 +73,9 @@ export const Earings = [
         id: 6,
         img: img6,
         num: "₹7888",
-        para: "Floral Swing Gold Drop Earrings"
+        para: "Floral Swing Gold Drop Earrings",
+                quantity:1,
+
 
 
 
