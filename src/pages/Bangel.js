@@ -7,8 +7,26 @@ import img4 from "../image/img4.jpg"
 import img5 from "../image/img5.jpg"
 import img6 from "../image/img6.jpg"
 import { Bangels } from '../constant/Bangels'
+import { useSelector, useDispatch } from "react-redux"
+import { addTocart, deleteFromCart } from "../redux/cartslice"
+
 
 const Bangel = () => {
+    const cartitems = useSelector((state) => state.cart.cartitems);
+
+
+    const dispatch = useDispatch();
+
+
+    const addCart = (item) => {
+        dispatch(addTocart(item))
+    }
+
+
+    const deleteCart = (item) => {
+        dispatch(deleteFromCart(item))
+    }
+
     return (
         <div className='row'>
             {
@@ -20,7 +38,12 @@ const Bangel = () => {
                                 <div class="card-body">
                                     <h5 class="card-title">{item.para}</h5>
                                     <p class="card-text">{item.num}</p>
-                                    <p></p>
+                                    {
+                                        cartitems.find(Items => Items.id === item.id) ? (
+                                            <button class="btn btn-danger cartbutton" onClick={() => deleteCart(item)} > Remove From Cart </button>)
+                                            :
+                                            (<button class="btn btn-danger cartbutton" onClick={() => addCart(item)} > Add To Cart </button>)
+                                    }
                                 </div>
                             </div>
                         </div>

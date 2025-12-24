@@ -4,6 +4,12 @@ import img0 from "../image/Logo.png"
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
+
+  const Logout = () => {
+    localStorage.removeItem("token")
+    window.location.href = "/login"
+  }
+
   return (
     <>
 
@@ -21,7 +27,12 @@ const Navbar = () => {
               <li><Link to="/chain">Chains</Link></li>
               <li><Link to="/Earing">Earings</Link></li>
               <li><Link to="/rings">Rings</Link></li>
+              <li><Link to="/cart">Cart</Link></li>
+              <li><Link to="/register">Register</Link></li>
+              <li><Link to="/login">Login</Link></li>
+              <li onClick={Logout}>Logout</li>
             </ul>
+
             <div className="navigation_icons">
 
               <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">

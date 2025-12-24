@@ -1,0 +1,55 @@
+.card {
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.table1 {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+}
+
+th {
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+}
+
+td {
+    padding: 12px;
+    font-size: 15px;
+}
+
+td img {
+    max-width: 120px;
+    border-radius: 6px;
+}
+
+.table3 {
+    background-color: #e63946;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+
+.table3:hover {
+    background-color: #c71c2a;
+}
+
+td button {
+    background-color: #1d3557;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 6px;
+}
+
+td button:hover {
+    background-color: #0a1f33;
+}
